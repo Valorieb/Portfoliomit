@@ -1,8 +1,36 @@
-h1 {
-  text-align: center;
+a {
+  color: rgb(244, 197, 111);
 }
 
+body {
+  background-color: #264653;
+}
+
+h1 {
+  text-align: center;
+  color: aliceblue;
+  background-color: #0f3040;
+  padding: 20px;
+  font-family: "Bad Script", cursive;
+  font-size: 50px;
+}
+
+p {
+  font-family: "Bad Script", cursive;
+  font-family: "Pridi", serif;
+  font-size: 18px;
+}
+.bio {
+  background-color: #0b5266;
+  color: aliceblue;
+  margin-left: 400px;
+  margin-right: 400px;
+  padding: 20px;
+}
 .profile_pic {
   height: 20%;
-  border-radius: 30%;
+  border-radius: 20%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
