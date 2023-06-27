@@ -31,6 +31,14 @@ p {
   font-size: 18px;
   padding: 20px;
 }
+
+iframe {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px;
+}
+
 .bio {
   background-color: #0b5266;
   color: aliceblue;
@@ -55,7 +63,7 @@ p {
 
 .tech_content {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: repeat(3, 1fr);
   gap: 5px;
 }
 
